@@ -24,11 +24,13 @@ import org.apache.poi.hwpf.HWPFDocFixture;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.Ignore;
 
 public final class TestFileInformationBlock {
     private FileInformationBlock _fileInformationBlock;
     private HWPFDocFixture _hWPFDocFixture;
 
+    @Ignore
     @Test
     public void testReadWrite() throws Exception {
         final FibBase expected = _fileInformationBlock.getFibBase();

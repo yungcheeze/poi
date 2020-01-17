@@ -28,6 +28,7 @@ import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.util.CellReference;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.junit.Test;
+import org.junit.Ignore;
 import org.openxmlformats.schemas.spreadsheetml.x2006.main.CTCell;
 import org.openxmlformats.schemas.spreadsheetml.x2006.main.CTRow;
 import org.openxmlformats.schemas.spreadsheetml.x2006.main.CTSheetData;
@@ -185,6 +186,7 @@ public class MemoryUsage {
      *
      * @see #testXmlAttached()
      */
+    @Ignore
     @Test
     public void testXmlAttached() {
         System.out.println();
